@@ -2,12 +2,12 @@ package Arrays;
 
 public class largestElementInArray {
     public static void main(String[] args) {
-        int arr[]={2,3,4,3,4,5324,5,555,5,55555};
+int[] arr = {-10, -3, -50, -1};
         System.out.println(findGreatestElment(arr));
     }
     public static int findGreatestElment(int arr[])
     {
-        int num=0;
+        int num=Integer.MIN_VALUE;
         for(Integer i:arr)
         {
             if(i>num)
