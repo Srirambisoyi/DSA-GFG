@@ -59,7 +59,7 @@ public static void swapUnsorted(int arr[])
 }
 public static int unSortedIndexRight(int arr[])
 {
-    for(int i=arr.length-1;i>1;i++)
+    for(int i=arr.length-1;i>0;i++)
     {
         if(arr[i]<arr[i-1])
         {
